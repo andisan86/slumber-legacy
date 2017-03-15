@@ -1,0 +1,12 @@
+target/
+screenShots/
+logs/
+drivers/
+*.feature
+test-output/
+cucumber-output/
+*.png
+src/test/resources/
+*.txt
+*.html
+*.log
