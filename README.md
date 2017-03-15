@@ -21,4 +21,23 @@ Then one can run Slumber by creating a JAR and passing below command:
 ```java
 java -jar -Dbrowser=FIREFOX -DdriverLocation=drivers/geckodriver -DcucumberGlueLocation= -DcucumberFeatureLocation=features slumber-1.0.jar
 ```
+Slumber relies on web objects defined in objectLibrary.json, like the following:
+```json
+{
+  "objects":
+          [
+            {
+              "objectName": "Google Home Logo",
+              "objectType": "div",
+              "objectId": "hplogo",
+              "objectNgModel": "",
+              "objectNgClick": "",
+              "objectNgIf": "",
+              "objectHref": "",
+              "objectNameAttr": ""
+            }
+          ]
+}
+```
+
 Give it a try!
