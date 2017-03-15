@@ -14,7 +14,7 @@ Scenario: Browser testing
 And following parameters:
 - Browser = Firefox
 - Browser driver location = drivers/chromedriver
-- Glue location = <leave blank by default>
+- Glue location = (leave blank by default)
 - Feature location = features/
 
 Then one can run Slumber by creating a JAR and passing below command:
