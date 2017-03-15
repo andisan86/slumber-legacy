@@ -10,3 +10,5 @@ src/test/resources/
 *.txt
 *.html
 *.log
+.idea/
+Slumber.iml
