@@ -1,7 +1,6 @@
 target/
 screenShots/
 logs/
-drivers/
 *.feature
 test-output/
 cucumber-output/
