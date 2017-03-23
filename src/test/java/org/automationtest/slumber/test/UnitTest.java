@@ -69,7 +69,7 @@ public class UnitTest {
     /**
      * Test InitDriver class
      */
-    @Test(dependsOnMethods = {"testWebObjects"})
+    //@Test(dependsOnMethods = {"testWebObjects"})
     public void testInitDriver() {
         InitDriver initDriver = new InitDriver();
         try {
@@ -85,7 +85,7 @@ public class UnitTest {
     /**
      * Test Browser class
      */
-    @Test(dependsOnMethods = {"testInitDriver", "testWebObjects"})
+    //@Test(dependsOnMethods = {"testInitDriver", "testWebObjects"})
     public void testBrowser() {
         testBrowser = new Browser(testDriver);
         testBrowser.openURL("http://www.google.com");
@@ -98,7 +98,7 @@ public class UnitTest {
     /**
      * Test GeneralSteps class
      */
-    @Test(dependsOnMethods = {"testBrowser"})
+    //@Test(dependsOnMethods = {"testBrowser"})
     public void testGeneralSteps() {
         String[] args = new String[2];
         args[0] = propertyFactory.getValueString("default.cucumber.glue.package");
